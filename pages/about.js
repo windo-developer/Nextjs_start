@@ -1,10 +1,10 @@
-import NavBar from "../components/NavBar";
+import PageTitle from "../components/PageTitle";
 
 export default function about() {
   return (
     <div>
-      <NavBar />
-      <h1>About</h1>
+      <PageTitle title="About" />
+      <h1 className="active">About</h1>
     </div>
   );
 }
